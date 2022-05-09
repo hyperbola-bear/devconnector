@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://czement:qmpz1234@cluster0.tnasn.mongodb.net/project0?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
