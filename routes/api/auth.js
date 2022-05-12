@@ -7,8 +7,9 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const config = require("config");
 const { check, validationResult } = require("express-validator");
+const Profiles = require("../../models/Profiles");
 
-//@route GET epi/auth
+//@route GET api/auth
 //@desc Test route
 //@access Public
 router.get("/", auth, async (req, res) => {
